@@ -1,0 +1,29 @@
+<c:form style="width:300px;margin-left: 35%"action="createTest" method="post" modelAttribute="test">
+<table>
+<tr>
+<td>Test ID</td>
+<td> <c:input path="id" required="true"/></td>
+</tr>
+
+<tr>
+<td>Test Name</td>
+<td> <c:input path="name" required="true"/></td>
+</tr>
+
+<tr>
+<td>Total Question</td>
+<td> <c:input path="totalquestions" required="true"/></td>
+</tr>
+
+<tr>
+<td>Total Marks</td>
+<td> <c:input path="totalMarks" required="true"/></td>
+</tr>
+
+<tr>
+<td><button type="submit" class="btn btn-primary btn-md" value="Add Test"/></button></td>
+</tr>
+</table>
+</c:form></div>
+</body>
+</html>
